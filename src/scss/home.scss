@@ -1,5 +1,5 @@
 .home-section {
-  padding: 24px 0;
+  padding: 64px 0 24px;
 
   @include media(desktop) {
     padding-top: 90px;
@@ -9,7 +9,7 @@
     );
     width: 1200px;
     height: 800px;
-    margin: 0 auto;
+    margin: 108px auto 0;
   }
 }
 
