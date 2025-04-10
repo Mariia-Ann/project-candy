@@ -1,8 +1,10 @@
 .show-town-section {
   padding: 24px 0;
+  scroll-margin-top: 40px;
 
   @include media(desktop) {
     padding: 60px 0;
+    scroll-margin-top: 108px;
   }
 }
 
