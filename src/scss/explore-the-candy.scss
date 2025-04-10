@@ -1,5 +1,6 @@
 .explore-the-candy-section {
   padding: 24px 0;
+
   @include media(desktop) {
     padding: 60px 0;
   }
@@ -33,6 +34,7 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.06em;
+
   @include media(desktop) {
     margin-bottom: 24px;
     text-align: left;
@@ -43,6 +45,7 @@
 
 .explore-game-img {
   margin-bottom: 16px;
+
   @include media(desktop) {
     display: none;
   }
@@ -86,8 +89,9 @@
   }
 }
 
-.explore-candy {
+.explore-candy-wrapper {
   display: none;
+
   @include media(desktop) {
     display: unset;
     position: absolute;
@@ -101,8 +105,15 @@
   }
 }
 
+.explore-candy {
+  @include media(desktop) {
+    animation: rotate 10s linear infinite;
+  }
+}
+
 .explore-candy-floss {
   display: none;
+
   @include media(desktop) {
     display: unset;
     position: absolute;
