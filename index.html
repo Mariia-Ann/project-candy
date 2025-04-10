@@ -38,22 +38,108 @@
     />
     
     <script type="module" crossorigin src="/stp-8591/commonHelpers2.js"></script>
-    <link rel="stylesheet" href="/stp-8591/assets/index-30bc1dc9.css">
+    <link rel="stylesheet" href="/stp-8591/assets/styles-80c448a9.css">
   </head>
   <body>
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container">
+    <a href="index.html">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="/stp-8591/assets/logo-desc@1x-b88f5f8c.jpg 1x, /stp-8591/assets/logo-desc@2x-f0824eb4.jpg 2x"
+        />
+        <source
+          media="(max-width: 1199px)"
+          srcset="data:image/jpeg;base64,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 1x, /stp-8591/assets/logo-mob@2x-724fea12.jpg 2x"
+        />
+        <img
+          src="/stp-8591/assets/logo-desc@1x-b88f5f8c.jpg"
+          alt="Build Your Dream Candy Town"
+          class="header-logo-img"
+          width="24"
+          height="24"
+        />
+      </picture>
+    </a>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+    <svg class="header-burger" width="24" height="24">
+      <use href="/stp-8591/assets/sprite-e69862cd.svg#icon-burger-menu"></use>
+    </svg>
+
+    <svg class="header-x-close" width="24" height="24">
+      <use href="/stp-8591/assets/sprite-e69862cd.svg#icon-x-close"></use>
+    </svg>
+
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="#home" class="header-nav-link">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#match-to-unlock" class="header-nav-link">Match to Unlock</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#explore-the-candy" class="header-nav-link"
+            >Explore the Candy Town Areas</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a href="#daily-candy-gifts" class="header-nav-link"
+            >Daily Candy Gifts</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a href="#show-off-your-town" class="header-nav-link"
+            >Show Off Your Town</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a href="#start-buildung-now" class="header-nav-link"
+            >Start Building Now</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
+
+<div class="header-modal">
+  <div class="header-modal-container">
+    <nav class="header-nav-modal">
+      <ul class="header-nav-list-modal">
+        <li class="header-nav-item-modal">
+          <a href="#home" class="header-nav-link-modal">Home</a>
+        </li>
+        <li class="header-nav-item-modal">
+          <a href="#match-to-unlock" class="header-nav-link-modal"
+            >Match to Unlock</a
+          >
+        </li>
+        <li class="header-nav-item-modal">
+          <a href="#explore-the-candy" class="header-nav-link-modal"
+            >Explore the Candy Town Areas</a
+          >
+        </li>
+        <li class="header-nav-item-modal">
+          <a href="#daily-candy-gifts" class="header-nav-link-modal"
+            >Daily Candy Gifts</a
+          >
+        </li>
+        <li class="header-nav-item-modal">
+          <a href="#show-off-your-town" class="header-nav-link-modal"
+            >Show Off Your Town</a
+          >
+        </li>
+        <li class="header-nav-item-modal">
+          <a href="#start-buildung-now" class="header-nav-link-modal"
+            >Start Building Now</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
     <main>
       <section class="home-section">
