@@ -17,6 +17,11 @@
   gap: 16px;
 }
 
+.go-home-link span {
+  display: flex;
+  padding: 4.8px 7.6px;
+}
+
 .go-home-link {
   color: $_home-button-text-color;
   transition: color 0.3s ease-in-out;
@@ -203,4 +208,64 @@
 
 .end-police p {
   margin-bottom: 0;
+}
+
+@include media(desktop) {
+  .privacy-header {
+    padding-top: 60px;
+    padding-bottom: 16px;
+  }
+
+  .privacy-policy-main h2 {
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .privacy-policy-main h2::before {
+    font-size: 36px;
+  }
+
+  .privacy-policy-main h3 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $_secondary-color;
+    margin-bottom: 20px;
+  }
+
+  .privacy-policy-main h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $_secondary-color;
+    margin-bottom: 20px;
+  }
+
+  .privacy-policy-main a {
+    overflow-wrap: break-word;
+    font-size: 20px;
+  }
+
+  .privacy-policy-main p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $_secondary-color;
+    margin-bottom: 20px;
+  }
+
+  .end-police p {
+    margin-bottom: 160px;
+  }
+
+  .privacy-policy-main ul li::before {
+    top: 14px;
+  }
+
+  #another-list li::before {
+    top: 14px;
+  }
 }
