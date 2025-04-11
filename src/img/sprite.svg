@@ -6,37 +6,21 @@
     <symbol id="icon-burger-menu" viewBox="0 0 32 32">
       <path d="M4 24v-2.667h24V24H4zm0-6.667v-2.667h24v2.667H4zm0-6.666V8h24v2.667H4z"/>
     </symbol>
+
+<symbol id="icon-google-play" viewBox="0 0 31 32">
+<path fill="#70c9f3" style="fill: var(--color1, #70c9f3)" d="M1.342 0.589c-0.383 0.37-0.511 0.988-0.511 1.729v27.291c0 0.741 0.256 1.358 0.639 1.729l0.128 0.123 15.843-15.312v-0.37l-16.098-15.189z"></path>
+<path fill="#ffe000" style="fill: var(--color2, #ffe000)" d="M22.551 21.211l-5.238-5.063v-0.37l5.238-5.063 0.128 0.123 6.26 3.458c1.789 0.988 1.789 2.593 0 3.581l-6.388 3.334z"></path>
+<path fill="#e7383d" style="fill: var(--color3, #e7383d)" d="M22.678 21.211l-5.366-5.186-15.97 15.312c0.639 0.617 1.533 0.617 2.683 0.123l18.654-10.249z"></path>
+<path fill="#07c700" style="fill: var(--color4, #07c700)" d="M22.678 10.715l-18.654-10.126c-1.15-0.617-2.044-0.494-2.683 0.123l15.97 15.436 5.366-5.433z"></path>
+</symbol>
+
     <symbol id="icon-google-play-disabled" viewBox="0 0 31 32">
       <path fill="#b2b2b2" style="fill:var(--color1, #b2b2b2)" d="M1.342.589c-.383.37-.511.988-.511 1.729v27.291c0 .741.256 1.358.639 1.729l.128.123 15.843-15.312v-.37L1.343.59z"/>
       <path fill="#666" style="fill:var(--color2, #666)" d="m22.551 21.211-5.238-5.063v-.37l5.238-5.063.128.123 6.26 3.458c1.789.988 1.789 2.593 0 3.581l-6.388 3.334z"/>
       <path fill="#909090" style="fill:var(--color3, #909090)" d="m22.678 21.211-5.366-5.186-15.97 15.312c.639.617 1.533.617 2.683.123l18.654-10.249z"/>
       <path fill="#5e5e5e" style="fill:var(--color4, #5e5e5e)" d="M22.678 10.715 4.024.589C2.874-.028 1.98.095 1.341.712l15.97 15.436 5.366-5.433z"/>
     </symbol>
-   <symbol id="icon-google-play" viewBox="0 0 35 36" xmlns="http://www.w3.org/2000/svg">
-  <path d="M1.51.663c-.432.416-.575 1.111-.575 1.945v30.701c0 .834.287 1.529.718 1.946l.144.138L19.62 18.167V17.75L1.51.663Z" fill="#70C9F3"/>
-  <path d="m25.37 23.863-5.894-5.696V17.75l5.893-5.696.144.14 7.043 3.889c2.012 1.111 2.012 2.917 0 4.029l-7.187 3.75Z" fill="url(#a)"/>
-  <path d="m25.513 23.863-6.037-5.835L1.51 35.254c.718.695 1.724.695 3.018.14l20.985-11.531Z" fill="url(#b)"/>
-  <path d="M25.513 12.054 4.528.662c-1.294-.694-2.3-.555-3.018.14l17.966 17.365 6.037-6.113Z" fill="url(#c)"/>
-  <defs>
-    <linearGradient id="a" x1="31.246" y1="17.982" x2="-3.504" y2="17.982" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFE000"/>
-      <stop offset=".194" stop-color="#FED000"/>
-      <stop offset=".547" stop-color="#F9B400"/>
-      <stop offset=".828" stop-color="#F6A200"/>
-      <stop offset="1" stop-color="#F59B00"/>
-    </linearGradient>
-    <linearGradient id="b" x1="22.228" y1="21.167" x2="-9.344" y2="53.833" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E7383D"/>
-      <stop offset="1" stop-color="#C81166"/>
-    </linearGradient>
-    <linearGradient id="c" x1="-10.602" y1="-16.936" x2="15.176" y2="9.735" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#296"/>
-      <stop offset=".317" stop-color="#4EA663"/>
-      <stop offset=".74" stop-color="#70B65D"/>
-      <stop offset="1" stop-color="#7CBC5B"/>
-    </linearGradient>
-  </defs>
-</symbol>
+
     <symbol id="icon-x-close" viewBox="0 0 32 32">
       <path d="M3.2 32 0 28.8 12.8 16 0 3.2 3.2 0 16 12.8 28.8 0 32 3.2 19.2 16 32 28.8 28.8 32 16 19.2 3.2 32z"/>
     </symbol>
