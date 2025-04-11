@@ -52,6 +52,9 @@
 .footer-item:hover {
   color: $_accept-button-color;
 }
+.footer-item:active {
+  color: $_link-visited-color;
+}
 
 .footer-copyright {
   color: $_tertiary-color;
