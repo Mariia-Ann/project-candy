@@ -90,8 +90,7 @@
 }
 .show-town-block-image {
   @include media(desktop) {
-    // width: 50%;
-    margin-left: -40px;
+    margin-left: -30px;
     margin-bottom: -60px;
   }
 }
