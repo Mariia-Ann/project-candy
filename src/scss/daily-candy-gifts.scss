@@ -1,0 +1,94 @@
+.daily-candy-gifts {
+  padding-top: 24px;
+  padding-bottom: 36px;
+  scroll-margin-top: 40px;
+}
+
+.daily-candy-gifts .container {
+  padding-bottom: 389px;
+}
+
+.daily-title {
+  margin-bottom: 8px;
+}
+
+.daily-candy-gifts .title::before {
+  left: auto;
+}
+
+.daily-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: $_tertiary-color;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.daily-description {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: normal;
+  color: $_color-text;
+}
+
+.daily-candy-gifts .container {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 288px 373px;
+  background-image: image-set(
+    url('/img/daily-candy-gifts/daily-mob@1x.png') 1x,
+    url('/img/daily-candy-gifts/daily-mob@2x.png') 2x
+  );
+}
+
+@include media(desktop) {
+  .daily-candy-gifts {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    scroll-margin-top: 108px;
+  }
+
+  .daily-candy-gifts .container {
+    padding-bottom: 475px;
+  }
+
+  .daily-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .daily-subtitle {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  .daily-description {
+    font-size: 24px;
+    max-width: 643px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .daily-candy-gifts .container {
+    background-position: bottom left 80px, bottom center, bottom right 80px;
+    background-repeat: no-repeat;
+    background-size: 240px 408px, 400px 409px, 240px 408px;
+    background-image: image-set(
+        url('/img/daily-candy-gifts/daily-left-desc@1x.png') 1x,
+        url('/img/daily-candy-gifts/daily-left-desc@2x.png') 2x
+      ),
+      image-set(
+        url('/img/daily-candy-gifts/daily-centr-desc@1x.png') 1x,
+        url('/img/daily-candy-gifts/daily-centr-desc@2x.png') 2x
+      ),
+      image-set(
+        url('/img/daily-candy-gifts/daily-right-desc@1x.png') 1x,
+        url('/img/daily-candy-gifts/daily-right-desc@2x.png') 2x
+      );
+  }
+}
