@@ -5,23 +5,86 @@
 }
 
 .match-to-unlock .container {
+  position: relative;
   padding-bottom: 113px;
-  background-position: bottom 22px left 16px, bottom center,
-    bottom 19px right 16px;
-  background-repeat: no-repeat;
-  background-size: 56px 56px, 47px 80px, 69px 61px;
-  background-image: image-set(
-      url('/img/match-to-unlock/candy@-1x.png') 1x,
-      url('/img/match-to-unlock/candy@-2x.png') 2x
-    ),
-    image-set(
-      url('/img/match-to-unlock/lollypop@1x.png') 1x,
-      url('/img/match-to-unlock/lollypop@2x.png') 2x
-    ),
-    image-set(
-      url('/img/match-to-unlock/candies@1x.png') 1x,
-      url('/img/match-to-unlock/candies@2x.png') 2x
-    );
+}
+
+@media screen and (max-width: 1199px) {
+  .lolypop-wrap {
+    width: 47px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lolypop-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+        url('/img/match-to-unlock/lollypop@mob-1x.png') 1x,
+        url('/img/match-to-unlock/lollypop@mob-2x.png') 2x
+      ),
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
+  }
+
+  .candies-wrap {
+    width: 69px;
+    height: 61px;
+    position: absolute;
+    bottom: 19px;
+    right: 16px;
+  }
+
+  .candies-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+        url('/img/match-to-unlock/candies@mob-1x.png') 1x,
+        url('/img/match-to-unlock/candies@mob-2x.png') 2x
+      ),
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
+  }
+
+  .candy-wrap {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    bottom: 22px;
+    left: 16px;
+  }
+
+  .candy-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+        url('/img/match-to-unlock/candy@mob-1x.png') 1x,
+        url(/img/match-to-unlock/candy@mob-2x.png) 2x
+      ),
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
+  }
 }
 
 .match-title {
@@ -53,6 +116,7 @@
 .match-img {
   border-radius: 16px;
   margin-bottom: 16px;
+  box-shadow: 0 4px 40px 2px rgba(0, 0, 0, 0.25);
 }
 
 .match-description {
@@ -89,21 +153,81 @@
   .match-to-unlock .container {
     padding-top: 85px;
     padding-bottom: 60px;
-    background-position: top 110px right 120px, bottom 40px right 80px, top;
-    background-repeat: no-repeat;
-    background-size: 94px 160px, 138px 122px, 1200px 77px;
-    background-image: image-set(
+  }
+
+  .match-back-wrap {
+    width: 1200px;
+    height: 77px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+
+  .match-back-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+        url('/img/match-to-unlock/match-to-unlock-back@1x.png') 1x,
+        url('/img/match-to-unlock/match-to-unlock-back@2x.png') 2x
+      ),
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
+  }
+
+  .lolypop-wrap {
+    width: 94px;
+    height: 160px;
+    position: absolute;
+    top: 110px;
+    right: 120px;
+  }
+
+  .lolypop-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
         url('/img/match-to-unlock/lollypop@1x.png') 1x,
         url('/img/match-to-unlock/lollypop@2x.png') 2x
       ),
-      image-set(
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
+  }
+
+  .candies-wrap {
+    width: 138px;
+    height: 122px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+  }
+
+  .candies-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
         url('/img/match-to-unlock/candies@1x.png') 1x,
         url('/img/match-to-unlock/candies@2x.png') 2x
       ),
-      image-set(
-        url('/img/match-to-unlock/match-to-unlock-back@1x.png') 1x,
-        url('/img/match-to-unlock/match-to-unlock-back@2x.png') 2x
-      );
+      no-repeat center/contain;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.09))
+      drop-shadow(0px 34px 21px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 61px 24px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 95px 27px rgba(0, 0, 0, 0));
+    z-index: 0;
   }
 
   .match-title {
