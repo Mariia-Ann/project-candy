@@ -45,7 +45,13 @@ const checkScreenWidth = () => {
     refs.burger.style.display = 'none';
     refs.closeX.style.display = 'none';
   } else {
-    refs.burger.style.display = 'block';
+    if (refs.modal.classList.contains('modal-is-visible')) {
+      refs.burger.style.display = 'none';
+      refs.closeX.style.display = 'block';
+    } else {
+      refs.burger.style.display = 'block';
+      refs.closeX.style.display = 'none';
+    }
   }
 };
 
