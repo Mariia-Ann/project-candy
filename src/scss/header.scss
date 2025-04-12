@@ -7,9 +7,10 @@
   margin: 0;
   padding: 8px 0;
   box-shadow: 4px 4px 16px 4px rgba(255, 255, 255, 0.8);
-  background: radial-gradient(
-    114.88% 52.2% at 50.77% 12.13%,
-    #c67fe8 3.71%,
+  background-color: #5eaff0;
+  background-image: radial-gradient(
+    45% 140% at 50% -10.13%,
+    #c67fe8 10.71%,
     #5eaff0 100%
   );
 }
@@ -51,11 +52,6 @@
   .header {
     z-index: 1001;
     box-shadow: 8px 8px 40px 16px rgba(255, 255, 255, 0.8);
-    background: radial-gradient(
-      114.88% 52.2% at 50.77% 12.13%,
-      #c67fe8 3.71%,
-      #5eaff0 100%
-    );
     padding: 24px 0;
   }
 
@@ -113,9 +109,10 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
   z-index: 999;
   box-shadow: 4px 4px 16px 4px rgba(255, 255, 255, 0.8);
-  background: radial-gradient(
-    114.88% 52.2% at 50.77% 12.13%,
-    #c67fe8 3.71%,
+  background-color: #5eaff0;
+  background-image: radial-gradient(
+    45% 140% at 50% -10.13%,
+    #c67fe8 10.71%,
     #5eaff0 100%
   );
 }

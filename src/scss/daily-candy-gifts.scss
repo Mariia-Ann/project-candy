@@ -60,7 +60,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: image-set(
+    background-image: image-set(
       url('/img/daily-candy-gifts/spinning@mob-1x.png') 1x,
       url('/img/daily-candy-gifts/spinning@mob-2x.png') 2x
     );
@@ -114,7 +114,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: image-set(
+    background-image: image-set(
       url('/img/daily-candy-gifts/daily-right-desc@1x.png') 1x,
       url('/img/daily-candy-gifts/daily-right-desc@2x.png') 2x
     );
@@ -138,7 +138,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: image-set(
+    background-image: image-set(
       url('/img/daily-candy-gifts/daily-left-desc@1x.png') 1x,
       url('/img/daily-candy-gifts/daily-left-desc@2x.png') 2x
     );
@@ -163,7 +163,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: image-set(
+    background-image: image-set(
       url('/img/daily-candy-gifts/daily-centr-desc@1x.png') 1x,
       url('/img/daily-candy-gifts/daily-centr-desc@2x.png') 2x
     );
