@@ -36,26 +36,15 @@
   color: $_color-text;
 }
 
-.daily-centr::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  filter: $drop-shadow;
-  z-index: 0;
-}
-
 @media screen and (max-width: 1199px) {
   .daily-candy-gifts .container {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 288px 373px;
-    background-image: url('/img/daily-candy-gifts/daily-mob@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .daily-candy-gifts .container {
-      background-image: url('/img/daily-candy-gifts/daily-mob@2x.png');
-    }
+    background-image: image-set(
+      url('/img/daily-candy-gifts/daily-mob@1x.png') 1x,
+      url('/img/daily-candy-gifts/daily-mob@2x.png') 2x
+    );
   }
 
   .daily-centr {
@@ -68,13 +57,15 @@
   }
 
   .daily-centr::before {
-    background-image: url('/img/daily-candy-gifts/spinning@mob-1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .daily-centr::before {
-      background-image: url('/img/daily-candy-gifts/spinning@mob-2x.png');
-    }
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+      url('/img/daily-candy-gifts/spinning@mob-1x.png') 1x,
+      url('/img/daily-candy-gifts/spinning@mob-2x.png') 2x
+    );
+    filter: $drop-shadow;
+    z-index: 0;
   }
 }
 
@@ -119,15 +110,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/daily-candy-gifts/daily-right-desc@1x.png') 1x,
+      url('/img/daily-candy-gifts/daily-right-desc@2x.png') 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/daily-candy-gifts/daily-right-desc@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .daily-right::before {
-      background-image: url('/img/daily-candy-gifts/daily-right-desc@2x.png');
-    }
   }
 
   .daily-left {
@@ -142,15 +130,12 @@
     content: '';
     position: absolute;
     inset: 0;
-    filter: $drop-shadow;
+    background: image-set(
+      url('/img/daily-candy-gifts/daily-left-desc@1x.png') 1x,
+      url('/img/daily-candy-gifts/daily-left-desc@2x.png') 2x
+    );
+    filter:$drop-shadow;
     z-index: 0;
-    background-image: url('/img/daily-candy-gifts/daily-left-desc@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .daily-left::before {
-      background-image: url('/img/daily-candy-gifts/daily-left-desc@2x.png');
-    }
   }
 
   .daily-centr {
@@ -163,12 +148,14 @@
   }
 
   .daily-centr::before {
-    background-image: url('/img/daily-candy-gifts/daily-centr-desc@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .daily-centr::before {
-      background-image: url('/img/daily-candy-gifts/daily-centr-desc@2x.png');
-    }
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: image-set(
+      url('/img/daily-candy-gifts/daily-centr-desc@1x.png') 1x,
+      url('/img/daily-candy-gifts/daily-centr-desc@2x.png') 2x
+    );
+    filter:$drop-shadow;
+    z-index: 0;
   }
 }

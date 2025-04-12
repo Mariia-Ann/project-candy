@@ -79,15 +79,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/match-to-unlock/lollypop@mob-1x.png') 1x,
+      url('/img/match-to-unlock/lollypop@mob-2x.png') 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/lollypop@mob-1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .lolypop-wrap::before {
-      background-image: url('/img/match-to-unlock/lollypop@mob-2x.png');
-    }
   }
 
   .candies-wrap {
@@ -102,15 +99,12 @@
     content: '';
     position: absolute;
     inset: 0;
-    filter: $drop-shadow;
+    background: image-set(
+      url('/img/match-to-unlock/candies@mob-1x.png') 1x,
+      url('/img/match-to-unlock/candies@mob-2x.png') 2x
+    );
+    filter:$drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/candies@mob-1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .candies-wrap::before {
-      background-image: url('/img/match-to-unlock/candies@mob-2x.png');
-    }
   }
 
   .candy-wrap {
@@ -125,15 +119,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/match-to-unlock/candy@mob-1x.png') 1x,
+      url(/img/match-to-unlock/candy@mob-2x.png) 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/candy@mob-1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .candy-wrap::before {
-      background-image: url('/img/match-to-unlock/candy@mob-2x.png');
-    }
   }
 }
 
@@ -161,15 +152,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/match-to-unlock/match-to-unlock-back@1x.png') 1x,
+      url('/img/match-to-unlock/match-to-unlock-back@2x.png') 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/match-to-unlock-back@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .match-back-wrap::before {
-      background-image: url('/img/match-to-unlock/match-to-unlock-back@2x.png');
-    }
   }
 
   .lolypop-wrap {
@@ -184,15 +172,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/match-to-unlock/lollypop@1x.png') 1x,
+      url('/img/match-to-unlock/lollypop@2x.png') 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/lollypop@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .lolypop-wrap::before {
-      background-image: url('/img/match-to-unlock/lollypop@2x.png');
-    }
   }
 
   .candies-wrap {
@@ -207,15 +192,12 @@
     content: '';
     position: absolute;
     inset: 0;
+    background: image-set(
+      url('/img/match-to-unlock/candies@1x.png') 1x,
+      url('/img/match-to-unlock/candies@2x.png') 2x
+    );
     filter: $drop-shadow;
     z-index: 0;
-    background-image: url('/img/match-to-unlock/candies@1x.png');
-  }
-
-  @media (min-resolution: 2dppx) {
-    .candies-wrap::before {
-      background-image: url('/img/match-to-unlock/candies@2x.png');
-    }
   }
 
   .match-title {
