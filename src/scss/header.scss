@@ -79,10 +79,6 @@
     transition: color 0.3s ease-in-out;
   }
 
-  .header-nav-link {
-    color: $_secondary-color;
-  }
-
   .header-nav-link:hover,
   .header-nav-link:focus {
     color: $_accept-button-color;
@@ -95,6 +91,10 @@
   .header-nav-link:active {
     color: $_link-visited-color;
   }
+  .header-nav-link .active {
+    color: $_link-visited-color;
+  }
+  
 }
 
 .header-modal {
