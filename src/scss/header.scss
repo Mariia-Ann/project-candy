@@ -88,10 +88,7 @@
     color: $_secondary-color;
   }
 
-  .header-nav-link:active {
-    color: $_link-visited-color;
-  }
-  .header-nav-link .active {
+  .header-nav-link.active {
     color: $_link-visited-color;
   }
   
